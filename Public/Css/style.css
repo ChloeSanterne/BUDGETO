@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto&display=swap');
+h1,h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../img/mathilde-langevin-8yfxnVyi4XQ-unsplash.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    margin: 0;
+}
+.logo{
+    height: 15vh;
+    border-radius: 30px 50px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.menu{
+    margin: 0rem 3rem 0rem 0rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+
+}
+.direction{
+    color:#17a2b8;
+    background-color: #e0e0e0;
+    transition: 0.2s;
+    border: white solid;
+    border-radius: 5px;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    
+}
+.direction:hover{
+    background-color: #17a3b881;
+    color: #e0e0e0;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 0 #FBC638;
+
+}
+.connexion{
+    font-family: 'Roboto', sans-serif;
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: fit-content;
+    border: white solid;
+    border-radius: 5px;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+.connexion:hover{
+    background-color:#17a3b881;
+    color: #e0e0e0;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 0 #FBC638;
+
+}
+main{
+    background-image: url("../img/Money jar_Flatline.svg");
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+    padding: 2rem;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    font-family: 'Lato', sans-serif;
+}
+main p{
+    padding: 2rem 3rem 2rem 0rem;
+    width: 50vw;
+}
+
+.description{
+    background-color:hsl(0, 0%, 88%);
+    background-image: url("../img/wave.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position:bottom;
+    background-size: 100%;
+    height: 30vh;
+    margin-top:3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: end;
+    color :grey;
+    font-family: 'Lato', sans-serif;
+}
+.nous{
+    border: #e0e0e0 solid;
+    width: 25vw;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.fnction{
+    height: 50vh;
+    margin: 4rem auto 4rem auto;
+    padding: 2rem;
+    background-image: url("../img/steve-johnson-WVUrbhWtRNM-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: rgb(190, 187, 187);
+    line-height: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.fnction h2{
+    color: black;
+    border-bottom: #FBC638 3px solid;
+}
+
+footer{
+    background-color:#e0e0e0;
+    text-align: center;
+    height: 15vh;
+    padding:4rem 0rem 4rem 0rem;
+    font-family: 'Lato', sans-serif;
+}
+/*PARTIE CONNEXION*/
+.new{ 
+    border: #17a2b8 solid;
+    display :none;
+}
+.infos{
+    font-family: 'Roboto', sans-serif;
+}
+/*PARTIE GESTIONNAIRE*/
+
+
+.choose{
+    display: flex;
+    font-size: larger;
+    margin: 2rem;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', cursive;
+}
+section{
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    border: #17a2b8 solid;
+    background-color: white;
+    color:  #17a2b8;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 3rem;
+    text-align: center;
+    width: 50vw;
+
+}
+.revenu{
+    padding: 1rem;
+    
+}
+.cases input{
+    margin: 1rem 0.5rem 0.5rem 0rem;
+}
+.cases{
+    margin-bottom: 2rem;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 75vw;
+        margin: auto;
+
+    }
+    header{
+        width: 75vw;
+    }
+    
+}
